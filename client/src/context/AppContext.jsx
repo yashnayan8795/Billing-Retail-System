@@ -54,6 +54,8 @@ export const AppContextProvider = (props) => {
         setCartItems([]);
     }
 
+    
+
     const contextValue = {
         categories,
         setCategories,
