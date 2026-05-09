@@ -1,10 +1,10 @@
-package in.yashNayan.billingsoftware.controller;
+package in.yashNayan.Bilingsoftware.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import in.yashNayan.billingsoftware.io.ItemRequest;
-import in.yashNayan.billingsoftware.io.ItemResponse;
-import in.yashNayan.billingsoftware.service.ItemService;
+import in.yashNayan.Bilingsoftware.io.ItemRequest;
+import in.yashNayan.Bilingsoftware.io.ItemResponse;
+import in.yashNayan.Bilingsoftware.service.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package in.bushansirgur.billingsoftware.io;
+package in.yashNayan.Bilingsoftware.io;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

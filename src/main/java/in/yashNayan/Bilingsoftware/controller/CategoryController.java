@@ -1,10 +1,10 @@
-package in.yashNayan.billingsoftware.controller;
+package in.yashNayan.Bilingsoftware.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import in.yashNayan.billingsoftware.io.CategoryRequest;
-import in.yashNayan.billingsoftware.io.CategoryResponse;
-import in.yashNayan.billingsoftware.service.CategoryService;
+import in.yashNayan.Bilingsoftware.io.CategoryRequest;
+import in.yashNayan.Bilingsoftware.io.CategoryResponse;
+import in.yashNayan.Bilingsoftware.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;

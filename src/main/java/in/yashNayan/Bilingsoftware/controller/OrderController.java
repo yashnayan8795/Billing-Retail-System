@@ -1,8 +1,8 @@
-package in.yashNayan.billingsoftware.controller;
+package in.yashNayan.Bilingsoftware.controller;
 
-import in.yashNayan.billingsoftware.io.OrderRequest;
-import in.yashNayan.billingsoftware.io.OrderResponse;
-import in.yashNayan.billingsoftware.service.OrderService;
+import in.yashNayan.Bilingsoftware.io.OrderRequest;
+import in.yashNayan.Bilingsoftware.io.OrderResponse;
+import in.yashNayan.Bilingsoftware.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package in.yashNayan.billingsoftware.config;
+package in.yashNayan.Bilingsoftware.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

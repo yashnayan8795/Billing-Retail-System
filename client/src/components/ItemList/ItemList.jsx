@@ -1,6 +1,6 @@
 import {useContext, useState} from "react";
 import {AppContext} from "../../context/AppContext.jsx";
-import {deleteItem} from "../../Service/ItemService.js";
+import {deleteItem} from "../../Services/ItemService.js";
 import toast from "react-hot-toast";
 import './ItemList.css';
 

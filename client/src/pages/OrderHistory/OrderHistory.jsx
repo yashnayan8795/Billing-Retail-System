@@ -1,6 +1,6 @@
 import './OrderHistory.css';
 import {useEffect, useState} from "react";
-import {latestOrders} from "../../Service/OrderService.js";
+import {latestOrders} from "../../Services/OrderService.js";
 
 const OrderHistory = () => {
     const [orders, setOrders] = useState([]);

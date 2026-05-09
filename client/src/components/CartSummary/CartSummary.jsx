@@ -2,9 +2,9 @@ import './CartSummary.css';
 import {useContext, useState} from "react";
 import {AppContext} from "../../context/AppContext.jsx";
 import ReceiptPopup from "../ReceiptPopup/ReceiptPopup.jsx";
-import {createOrder, deleteOrder} from "../../Service/OrderService.js";
+import {createOrder, deleteOrder} from "../../Services/OrderService.js";
 import toast from "react-hot-toast";
-import {createRazorpayOrder, verifyPayment} from "../../Service/PaymentService.js";
+import {createRazorpayOrder, verifyPayment} from "../../Services/PaymentService.js";
 import {AppConstants} from "../../util/constants.js";
 
 const CartSummary = ({customerName, mobileNumber, setMobileNumber, setCustomerName}) => {

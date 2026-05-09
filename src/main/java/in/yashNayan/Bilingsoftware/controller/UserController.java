@@ -1,8 +1,8 @@
-package in.yashNayan.billingsoftware.controller;
+package in.yashNayan.Bilingsoftware.controller;
 
-import in.yashNayan.billingsoftware.io.UserRequest;
-import in.yashNayan.billingsoftware.io.UserResponse;
-import in.yashNayan.billingsoftware.service.UserService;
+import in.yashNayan.Bilingsoftware.io.UserRequest;
+import in.yashNayan.Bilingsoftware.io.UserResponse;
+import in.yashNayan.Bilingsoftware.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.prepost.PreAuthorize;

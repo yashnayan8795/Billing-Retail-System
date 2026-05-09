@@ -1,6 +1,6 @@
 import {createContext, useEffect, useState} from "react";
-import {fetchCategories} from "../Service/CategoryService.js";
-import {fetchItems} from "../Service/ItemService.js";
+import {fetchCategories} from "../Services/CategoryService.js";
+import {fetchItems} from "../Services/ItemService.js";
 
 export const AppContext = createContext(null);
 
