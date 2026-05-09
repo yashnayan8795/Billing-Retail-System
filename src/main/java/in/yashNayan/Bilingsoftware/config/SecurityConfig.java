@@ -1,7 +1,7 @@
-package in.yashNayan.billingsoftware.config;
+package in.yashNayan.Bilingsoftware.config;
 
-import in.yashNayan.billingsoftware.filter.JwtRequestFilter;
-import in.yashNayan.billingsoftware.service.impl.AppUserDetailsService;
+import in.yashNayan.Bilingsoftware.filter.JwtRequestFilter;
+import in.yashNayan.Bilingsoftware.service.impl.AppUserDetailsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

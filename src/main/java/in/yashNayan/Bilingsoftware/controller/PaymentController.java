@@ -1,12 +1,12 @@
-package in.yashNayan.billingsoftware.controller;
+package in.yashNayan.Bilingsoftware.controller;
 
 import com.razorpay.RazorpayException;
-import in.yashNayan.billingsoftware.io.OrderResponse;
-import in.yashNayan.billingsoftware.io.PaymentRequest;
-import in.yashNayan.billingsoftware.io.PaymentVerificationRequest;
-import in.yashNayan.billingsoftware.io.RazorpayOrderResponse;
-import in.yashNayan.billingsoftware.service.OrderService;
-import in.yashNayan.billingsoftware.service.RazorpayService;
+import in.yashNayan.Bilingsoftware.io.OrderResponse;
+import in.yashNayan.Bilingsoftware.io.PaymentRequest;
+import in.yashNayan.Bilingsoftware.io.PaymentVerificationRequest;
+import in.yashNayan.Bilingsoftware.io.RazorpayOrderResponse;
+import in.yashNayan.Bilingsoftware.service.OrderService;
+import in.yashNayan.Bilingsoftware.service.RazorpayService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

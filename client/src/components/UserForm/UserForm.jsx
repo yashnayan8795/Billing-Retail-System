@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {addUser} from "../../Service/UserService.js";
+import {addUser} from "../../Services/UserService.js";
 import toast from "react-hot-toast";
 
 const UserForm = ({setUsers}) => {

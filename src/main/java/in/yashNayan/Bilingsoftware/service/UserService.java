@@ -1,4 +1,4 @@
-package in.bushansirgur.billingsoftware.service;
+package in.yashNayan.Bilingsoftware.service;
 
 import in.yashNayan.Bilingsoftware.io.UserRequest;
 import in.yashNayan.Bilingsoftware.io.UserResponse;

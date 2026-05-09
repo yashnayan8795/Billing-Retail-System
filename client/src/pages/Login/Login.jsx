@@ -1,7 +1,7 @@
 import './Login.css';
 import {useContext, useState} from "react";
 import toast from "react-hot-toast";
-import {login} from "../../Service/AuthService.js";
+import {login} from "../../Services/AuthService.js";
 import {useNavigate} from "react-router-dom";
 import {AppContext} from "../../context/AppContext.jsx";
 
